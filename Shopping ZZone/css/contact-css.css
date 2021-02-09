@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 Feb, 2021, 4:46:38 AM
+    Author     : Sritiman Adak
+*/
+
+.footer-element{
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(100,5,45);
+    font-size: 11px;
+    text-align: center;
+    padding:10px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.footer-element p{
+    padding-top: 0.3%;
+    padding-bottom: 0.1%;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.nav-animate{
+    font-weight: bold;
+}
+.row-style{
+/*    border: 2px solid red;*/
+    margin-top: 80px;
+    border:2px solid red;
+    border-bottom: 8px solid black;
+    border-top: 8px solid black;
+    border-radius: 10px;
+}
+.text-area-style{
+    width: 100%;
+}
+.mkdv{
+    font-size: 17px;
+    color: black;
+}
+p{
+    text-align: justify;
+}
+h5{
+    color: black;
+    font-weight: bold;
+}
+.bottom-row{
+    margin-bottom: 80px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-bottom: 15px;
+}
+.cor{
+    height: 70px;
+    width: 70px;
+    padding-bottom: 5px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

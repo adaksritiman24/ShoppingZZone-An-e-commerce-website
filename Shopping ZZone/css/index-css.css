@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 Jan, 2021, 7:29:03 AM
+    Author     : Sritiman Adak
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+}
+#main-container{
+    min-height: 100vh;
+    min-width: 100%;
+}
+#banner-image{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("../img/intro-bg_1.jpg") no-repeat center;
+    height: 50%;
+    width: 100%;
+    background-size: auto;
+    overflow: hidden;
+}
+
+.banner-content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: rgba(0,0,0,.7);
+    max-width: 660px;
+    border-radius: 6px;
+}
+.banner-content h2{
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+.banner-content p{
+    padding-bottom: 5%;
+    font-family: 'arial';
+    font-size: 18px;
+        
+}
+.footer-element{
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(100,5,45);
+    font-size: 11px;
+    text-align: center;
+    padding:10px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.footer-element p{
+    padding-top: 0.3%;
+    padding-bottom: 0.1%;
+    margin-bottom: 0px;
+}
+.nav-animate{
+    font-weight: bold;
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.marquee{
+    height: 25px;
+    width:75%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+.marquee div{
+    display: block;
+    width: 200%;
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 15s linear infinite;
+    
+}
+.marquee span{
+    color: yellow;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@keyframes marquee{
+    0%{
+        left:100%;
+    }
+    100%{
+        left:-150%;
+    }
+}
+
+@keyframes myanimation{
+    0% {color: #9d9d9d;}
+    50%{color: #ffffff;}
+    100%{color: #9d9d9d;}
+}
